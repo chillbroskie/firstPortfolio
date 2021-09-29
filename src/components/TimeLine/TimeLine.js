@@ -32,8 +32,8 @@ const Timeline = () => {
     }
   }
 
-  // // snap back to beginning of scroll when window is resized
-  // // avoids a bug where content is covered up if coming from smaller screen
+  // snap back to beginning of scroll when window is resized
+  // avoids a bug where content is covered up if coming from smaller screen
   useEffect(() => {
     const handleResize = () => {
       scroll(carouselRef.current, 0);
@@ -46,13 +46,15 @@ const Timeline = () => {
     <Section id="about">
       <SectionTitle>About Me</SectionTitle>
       <SectionText>
-        I started learning Web development because I wanted to apply and work for companies like Twitch.tv.  I enrolled and graduated from Nucamp Coding BootCamp. and actively seeking to improve my understanding of JS, React, Node, CSS, SASS ect..
+        I'm an aspiring Developer for both Web and Mobile environments.
+        <br />
+        I started my path to becoming a Web Dev. after being an active user of the internet for so long, I wanted to learn how to contribute to site's/ app's. Twitch / Gaming fanatic. Looking for a Job.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
             <CarouselMobileScrollNode key={index} final={index === TOTAL_CAROUSEL_COUNT - 1}>
-              <CarouselItem 
+              <CarouselItem
                 index={index}
                 id={`carousel__item-${index}`}
                 active={activeItem}
@@ -61,35 +63,35 @@ const Timeline = () => {
               <CarouselItemTitle>
                 {item.year}
                 <CarouselItemImg
-                  width="208"
-                  height="6"
-                  viewBox="0 0 208 6"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M2.5 5.5C3.88071 5.5 5 4.38071 5 3V3.5L208 3.50002V2.50002L5 2.5V3C5 1.61929 3.88071 0.5 2.5 0.5C1.11929 0.5 0 1.61929 0 3C0 4.38071 1.11929 5.5 2.5 5.5Z"
-                    fill="url(#paint0_linear)"
-                    fill-opacity="0.33"
-                  />
-                  <defs>
-                    <linearGradient
-                      id="paint0_linear"
-                      x1="-4.30412e-10"
-                      y1="0.5"
-                      x2="208"
-                      y2="0.500295"
-                      gradientUnits="userSpaceOnUse">
-                      <stop stop-color="white" />
-                      <stop
-                        offset="0.79478"
-                        stop-color="white"
-                        stop-opacity="0"
-                      />
-                    </linearGradient>
-                  </defs>
-                </CarouselItemImg>
+                    width="208"
+                    height="6"
+                    viewBox="0 0 208 6"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M2.5 5.5C3.88071 5.5 5 4.38071 5 3V3.5L208 3.50002V2.50002L5 2.5V3C5 1.61929 3.88071 0.5 2.5 0.5C1.11929 0.5 0 1.61929 0 3C0 4.38071 1.11929 5.5 2.5 5.5Z"
+                      fill="url(#paint0_linear)"
+                      fillOpacity="0.33"
+                    />
+                    <defs>
+                      <linearGradient
+                        id="paint0_linear"
+                        x1="-4.30412e-10"
+                        y1="0.5"
+                        x2="208"
+                        y2="0.500295"
+                        gradientUnits="userSpaceOnUse">
+                        <stop stop-color="white" />
+                        <stop
+                          offset="0.79478"
+                          stopColor="white"
+                          stopOpacity="0"
+                        />
+                      </linearGradient>
+                    </defs>
+                  </CarouselItemImg>
               </CarouselItemTitle>
               <CarouselItemText>{item.text}</CarouselItemText>
               </CarouselItem>
