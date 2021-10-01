@@ -9,7 +9,7 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle main center>
         Welcome To <br />
-        My Portfolio guided by JSmastery
+        My Portfolio :)
       </SectionTitle>
       <SectionText>
         My dream is to help build and create simple / sleek user experience on the FrontEnd aswell as how to support that on the backend server side.
