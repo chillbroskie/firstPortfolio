@@ -9,12 +9,12 @@ const Hero = () => (
     <LeftSection>
       <SectionTitle main center>
         Welcome To <br />
-        My Portfolio :)
+        My Portfolio :D
       </SectionTitle>
       <SectionText>
-        My dream is to help build and create simple / sleek user experience on the FrontEnd aswell as how to support that on the backend server side.
+        My name is Matthew Evans. I'm a Full Stack Web / Mobile Developer. It's a passion of mine to help build and create simple/sleek user experiences on the client-side as well as how to support that on the backend server-side.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button>
+      {/* <Button onClick={() => window.location = 'https://google.com'}>Learn More</Button> */}
     </LeftSection>
   </Section>
 );
