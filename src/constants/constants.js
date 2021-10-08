@@ -2,9 +2,9 @@ export const projects = [
   {
     title: 'MERN Memories',
     description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
+      image: '/images/1.jpg',
       tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
+    source: 'https://github.com/chillbroskie',
     visit: 'https://google.com',
     id: 0,
   },
@@ -28,11 +28,11 @@ export const projects = [
   },
   {
     title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    description: "In this project I learned how to build a full Realtime Chat Application.  Made use of various sign-in / autheriztion method such as google and facebook.  application includes features such as online statues, read receipts, and image support.",
     image: '/images/4.jpg',
     tags: ['React', 'ChatEngine', 'Firebase'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    source: 'https://github.com/chillbroskie/unichat',
+    visit: 'https://unichatpractice.netlify.app/',
     id: 3,
   },
 ];
