@@ -20,9 +20,9 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey in Community College', },
-  { year: 2018, text: 'Found an interest on how much I was online and wanted to learn', },
-  { year: 2019, text: 'Picked up addition CS classes at CalU', },
+  { year: 2017, text: 'Started my journey in Westmoreland County Community College', },
+  { year: 2018, text: 'Found an interest in Programming', },
+  { year: 2019, text: 'Picked up additional CS classes at CalU', },
   { year: 2020, text: 'Started Nucamp and Codecademy', },
-  { year: 2021, text: 'Graduated, and Looking for career opportunities', },
+  { year: 2021, text: 'Graduated with Honors in Front-end', },
 ];
