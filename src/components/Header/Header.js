@@ -38,9 +38,6 @@ const Header = () =>  (
       <SocialIcons href="https://www.linkedin.com/in/matt-evans-a90186200/" target="_blank" rel="noreferrer noopener">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://twitter.com/chillbroskie" target="_blank" rel="noreferrer noopener">
-        <AiOutlineTwitter size="3rem" />
-      </SocialIcons>
     </Div3>
   </Container>
 );
