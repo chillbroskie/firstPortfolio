@@ -48,7 +48,7 @@ const Timeline = () => {
       <SectionText>
         I'm an aspiring Developer for both Web and Mobile environments.
         <br />
-        A passionate 5 year internet and web development hobbyist, specializing in contributing user experience and functionality to site visitors. Results-focused and seeking a new role to bring my experience in full stack development a strong and dynamic team.
+        A passionate 4 year internet and web development hobbyist, specializing in contributing user experience and functionality to site visitors. Results-focused and seeking a new role to bring my experience in full stack development a strong and dynamic team.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
