@@ -17,6 +17,24 @@ export const projects = [
     visit: 'https://github.com/chillbroskie/brosearch',
     id: 1,
   },
+  {
+    title: 'Instagram Clone',
+    description: "Ability to search for up-to-date results, news, images, and videos. Includes a modern UI with dark mode all made with Tailwind CSS.  Responsive Google Clone used to practice more modern React.js. The Clone uses the Google Search API from rapidAPI.",
+      image: '/images/5.jpg',
+      tags: ['React', 'Tailwind', 'RapidAPI'],
+    source: 'https://brosearch.netlify.app/',
+    visit: 'https://github.com/chillbroskie/brosearch',
+    id: 2,
+  },
+  {
+    title: 'BroSearch',
+    description: "Ability to search for up-to-date results, news, images, and videos. Includes a modern UI with dark mode all made with Tailwind CSS.  Responsive Google Clone used to practice more modern React.js. The Clone uses the Google Search API from rapidAPI.",
+      image: '/images/5.jpg',
+      tags: ['React', 'Tailwind', 'RapidAPI'],
+    source: 'https://brosearch.netlify.app/',
+    visit: 'https://github.com/chillbroskie/brosearch',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
