@@ -35,6 +35,24 @@ export const projects = [
     visit: 'https://github.com/chillbroskie/tailwind-discord-practice',
     id: 3,
   },
+  {
+    title: 'CSS carousel animation',
+    description: "practice creating a simple and pleasant fading animation for a carousel only using CSS",
+      image: '/images/5.jpg',
+      tags: ['JavaScript', 'CSS'],
+    source: 'https://tailwindcss-discord-navbar.netlify.app/',
+    visit: 'https://github.com/chillbroskie/tailwind-discord-practice',
+    id: 3,
+  },
+  {
+    title: 'React calculator',
+    description: "React calculator made with the reducer hook",
+      image: '/images/5.jpg',
+      tags: ['React', 'Hooks'],
+    source: 'https://react-calc-practice.netlify.app/',
+    visit: 'https://github.com/chillbroskie/react-calc',
+    id: 3,
+  },
 ];
 
 export const TimeLineData = [
