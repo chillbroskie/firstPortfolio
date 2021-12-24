@@ -67,6 +67,15 @@ export const projects = [
     visit: "https://github.com/chillbroskie/react-calc",
     id: 6,
   },
+  {
+    title: "ThreeJS start",
+    description: "start to my journey of threejs.",
+    image: "/images/5.jpg",
+    tags: ["JavaScript", "CSS", "HTML", "ThreeJS"],
+    source: "https://react-calc-practice.netlify.app/",
+    visit: "https://github.com/chillbroskie/react-calc",
+    id: 7,
+  },
 ];
 
 export const TimeLineData = [
