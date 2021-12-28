@@ -72,8 +72,8 @@ export const projects = [
     description: "start to my journey of threejs.",
     image: "/images/5.jpg",
     tags: ["JavaScript", "CSS", "HTML", "ThreeJS"],
-    source: "https://react-calc-practice.netlify.app/",
-    visit: "https://github.com/chillbroskie/react-calc",
+    source: "",
+    visit: "",
     id: 7,
   },
 ];
