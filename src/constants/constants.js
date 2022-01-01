@@ -69,7 +69,7 @@ export const projects = [
   },
   {
     title: "ThreeJS start",
-    description: "start to my journey of threejs.",
+    description: "start to my journey of threejs and what i can make.",
     image: "/images/5.jpg",
     tags: ["JavaScript", "CSS", "HTML", "ThreeJS"],
     source: "",
