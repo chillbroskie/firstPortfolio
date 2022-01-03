@@ -63,8 +63,8 @@ export const projects = [
     description: "simple Todo list editor made with JavaScript / CSS / HTML.",
     image: "/images/5.jpg",
     tags: ["JavaScript", "CSS", "HTML"],
-    source: "https://react-calc-practice.netlify.app/",
-    visit: "https://github.com/chillbroskie/react-calc",
+    source: "",
+    visit: "",
     id: 6,
   },
   {
