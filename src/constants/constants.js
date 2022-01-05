@@ -63,7 +63,7 @@ export const projects = [
     description: "simple Todo list editor made with JavaScript / CSS / HTML.",
     image: "/images/5.jpg",
     tags: ["JavaScript", "CSS", "HTML"],
-    source: "",
+    source: "https://js-basic-todo-list.netlify.app/",
     visit: "",
     id: 6,
   },
