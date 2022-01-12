@@ -87,5 +87,4 @@ export const TimeLineData = [
   { year: 2019, text: "Picked up additional CS classes at CalU" },
   { year: 2020, text: "Started Nucamp and Codecademy" },
   { year: 2021, text: "Graduated with Honors in Front-end" },
-  { year: 2022, text: "Looking to apply myself professionally" },
 ];
