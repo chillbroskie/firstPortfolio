@@ -20,11 +20,11 @@ export const projects = [
     id: 1,
   },
   {
-    title: "Instagram Clone",
+    title: "budget expense tracker",
     description:
-      "Ability to search for up-to-date results, news, images, and videos. Includes a modern UI with dark mode all made with Tailwind CSS.  Responsive Google Clone used to practice more modern React.js. The Clone uses the Google Search API from rapidAPI.",
+      "Using custom hooks to store ur budgets and expenses to keep track of your spending habits, also has a cleanup uncaterigized which you can freely swap categories ",
     image: "/images/5.jpg",
-    tags: ["React", "Tailwind", "RapidAPI"],
+    tags: ["React", "Hooks", "Custom Hook"],
     source: "https://brosearch.netlify.app/",
     visit: "https://github.com/chillbroskie/brosearch",
     id: 2,
