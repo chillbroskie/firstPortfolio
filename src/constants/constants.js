@@ -23,7 +23,7 @@ export const projects = [
     title: "budget expense tracker",
     description:
       "Using custom hooks to store ur budgets and expenses to keep track of your spending habits, also has a cleanup uncaterigized which you can freely swap categories ",
-    image: "/images/5.jpg",
+    image: "",
     tags: ["React", "Hooks", "Custom Hook"],
     source: "https://brosearch.netlify.app/",
     visit: "https://github.com/chillbroskie/brosearch",
@@ -33,7 +33,7 @@ export const projects = [
     title: "Discord NavBar",
     description:
       "Discord Navbar recreation to practice tailwind styling for the onHover effects and tooltips and using custom themes to change the color scheme of the base color attribute.",
-    image: "/images/5.jpg",
+    image: "",
     tags: ["React", "Tailwind"],
     source: "https://tailwindcss-discord-navbar.netlify.app/",
     visit: "https://github.com/chillbroskie/tailwind-discord-practice",
