@@ -1,16 +1,32 @@
-import Link from 'next/link';
-import React from 'react';
-import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin} from 'react-icons/ai';
-import { DiCssdeck } from 'react-icons/di';
+import Link from "next/link";
+import React from "react";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { DiCssdeck } from "react-icons/di";
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Span } from './HeaderStyles';
+import {
+  Container,
+  Div1,
+  Div2,
+  Div3,
+  NavLink,
+  SocialIcons,
+  Span,
+} from "./HeaderStyles";
 
-const Header = () =>  (
+const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white", marginBottom: 15}}>
-          <DiCssdeck size="3rem" /><Span>Portfolio</Span>
+        <a
+          style={{
+            display: "flex",
+            alignItems: "center",
+            color: "white",
+            marginBottom: 15,
+          }}
+        >
+          <DiCssdeck size="3rem" />
+          <Span>Portfolio</Span>
         </a>
       </Link>
     </Div1>
@@ -32,10 +48,18 @@ const Header = () =>  (
       </li>
     </Div2>
     <Div3>
-      <SocialIcons href="https://github.com/chillbroskie" target="_blank" rel="noreferrer noopener">
+      <SocialIcons
+        href="https://github.com/chillbroskie"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/matt-evans-a90186200/" target="_blank" rel="noreferrer noopener">
+      <SocialIcons
+        href="https://www.linkedin.com/in/matt-evans-a90186200/"
+        target="_blank"
+        rel="noreferrer noopener"
+      >
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
     </Div3>

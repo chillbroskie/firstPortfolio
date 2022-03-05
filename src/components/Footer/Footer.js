@@ -1,8 +1,18 @@
-import React from 'react';
-import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin } from 'react-icons/ai';
+import React from "react";
+import { AiFillGithub, AiOutlineTwitter, AiFillLinkedin } from "react-icons/ai";
 
-import { SocialIcons } from '../Header/HeaderStyles';
-import { CompanyContainer, FooterWrapper, LinkColumn, LinkItem, LinkList, LinkTitle, Slogan, SocialContainer, SocialIconsContainer } from './FooterStyles';
+import { SocialIcons } from "../Header/HeaderStyles";
+import {
+  CompanyContainer,
+  FooterWrapper,
+  LinkColumn,
+  LinkItem,
+  LinkList,
+  LinkTitle,
+  Slogan,
+  SocialContainer,
+  SocialIconsContainer,
+} from "./FooterStyles";
 
 const Footer = () => {
   return (
@@ -14,18 +24,30 @@ const Footer = () => {
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>email</LinkTitle>
-          <LinkItem href="mailto:maevans724@gmail.com">maevans724@gmail.com</LinkItem>
+          <LinkItem href="mailto:maevans724@gmail.com">
+            maevans724@gmail.com
+          </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating One Project at a time</Slogan>
+          <Slogan>
+            Always give 100% when your name is attached to something.
+          </Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/chillbroskie" target="_blank" rel="noreferrer noopener">
+          <SocialIcons
+            href="https://github.com/chillbroskie"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://www.linkedin.com/in/matt-evans-a90186200/" target="_blank" rel="noreferrer noopener">
+          <SocialIcons
+            href="https://www.linkedin.com/in/matt-evans-a90186200/"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
         </SocialContainer>
