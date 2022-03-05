@@ -35,7 +35,7 @@ export const projects = [
       "The game that took the internet by storm, in this cloned version we make use of Grid and CSS animation through JavaScript.",
     image: "/images/wordle.png",
     tags: ["HTML", "CSS", "JavaScript", "Grid"],
-    source: "https://app.netlify.com/sites/wordle-clone-yt/overview",
+    source: "https://wordle-clone-yt.netlify.app/",
     visit: "https://github.com/chillbroskie/wordle-clone",
     id: 3,
   },
