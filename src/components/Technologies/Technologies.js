@@ -46,7 +46,7 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             Node.JS, <br />
-            firebase
+            Firebase
           </ListParagraph>
         </ListContainer>
       </ListItem>

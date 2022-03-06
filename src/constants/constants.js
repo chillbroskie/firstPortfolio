@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Unichat",
     description:
-      "In this project I learned how to build a full Realtime Chat Application.  Made use of various sign-in / authorizations method such as Google and Facebook.  application includes features such as online statues, read receipts, and image support.",
+      "In this project I learned how to build a full Realtime Chat Application.  Made use of various sign-in / authorizations method such as Google and Facebook.  Application includes features such as online statues, read receipts, and image support.",
     image: "/images/4.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
     source: "https://unichatpractice.netlify.app/",
@@ -12,7 +12,7 @@ export const projects = [
   {
     title: "BroSearch",
     description:
-      "Ability to search for up-to-date results, news, images, and videos. Includes a modern UI with dark mode all made with Tailwind CSS.  Responsive Google Clone used to practice more modern React.js. The Clone uses the Google Search API from rapidAPI.",
+      "Ability to search for up-to-date results, news, images, and videos. Includes a modern UI with dark mode all made with Tailwind CSS.  Responsive Google clone used to practice more modern React.js. The clone uses the Google Search API from rapidAPI.",
     image: "/images/GoogleSearch.jpg",
     tags: ["React", "Tailwind", "RapidAPI"],
     source: "https://brosearch.netlify.app/",
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "Budget expense tracker",
     description:
-      "Using custom hooks to add and store new /current expense's, also includes separation by category and a default uncategorized.",
+      "Using custom hooks to add and store new /current expense's. The application includes separation by category and a default uncategorized.",
     image: "/images/budget.png",
     tags: ["React", "Hooks", "Custom Hook"],
     source: "https://react-budget-app-practice.netlify.app/",
@@ -42,7 +42,7 @@ export const projects = [
   {
     title: "Flappy Bird Game",
     description:
-      "Cloned web version of the once world-wide popular phone game Flappy Bird.  this simple cloned version makes use of a cleanup to remove appended 'pipes' for self cleanup of the code.",
+      "Cloned web version of the once world-wide popular phone game Flappy Bird. This simple cloned version makes use of a cleanup to remove appended 'pipes' for self cleanup of the code.",
     image: "/images/flappybird.png",
     tags: ["HTML", "CSS", "JavaScript"],
     source: "https://flappybirdpractice.netlify.app/",
