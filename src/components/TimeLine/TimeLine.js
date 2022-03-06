@@ -70,9 +70,9 @@ const Timeline = () => {
         I'm an aspiring Developer for both Web and Mobile environments.
         <br />A passionate 4 year internet and web development hobbyist,
         specializing in contributing user experience and functionality for the
-        end user. Results-focused and seeking a new role to bring my experience
-        in full stack development, a strong and dynamic team to learn and
-        progress for my professional career.
+        end user. Results-focused and seeking a strong and dynamic team that I
+        can leverage my full stack development experience for, and to learn from
+        and progress my professional career.
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>

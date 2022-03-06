@@ -2,7 +2,7 @@ export const projects = [
   {
     title: "Unichat",
     description:
-      "In this project I learned how to build a full Realtime Chat Application.  Made use of various sign-in / authorizations method such as google and facebook.  application includes features such as online statues, read receipts, and image support.",
+      "In this project I learned how to build a full Realtime Chat Application.  Made use of various sign-in / authorizations method such as Google and Facebook.  application includes features such as online statues, read receipts, and image support.",
     image: "/images/4.jpg",
     tags: ["React", "ChatEngine", "Firebase"],
     source: "https://unichatpractice.netlify.app/",
@@ -22,7 +22,7 @@ export const projects = [
   {
     title: "Budget expense tracker",
     description:
-      "Using custom hooks to add and store new or current expense's, also includes separation by category.",
+      "Using custom hooks to add and store new /current expense's, also includes separation by category and a default uncategorized.",
     image: "/images/budget.png",
     tags: ["React", "Hooks", "Custom Hook"],
     source: "https://react-budget-app-practice.netlify.app/",
@@ -40,9 +40,9 @@ export const projects = [
     id: 3,
   },
   {
-    title: "FlappyBird Game",
+    title: "Flappy Bird Game",
     description:
-      "Cloned web version of the once world-wide popular phone game flappy bird.  this simple cloned version makes use of a cleanup to remove appended 'pipes' for self cleanup of the code.",
+      "Cloned web version of the once world-wide popular phone game Flappy Bird.  this simple cloned version makes use of a cleanup to remove appended 'pipes' for self cleanup of the code.",
     image: "/images/flappybird.png",
     tags: ["HTML", "CSS", "JavaScript"],
     source: "https://flappybirdpractice.netlify.app/",
@@ -50,9 +50,9 @@ export const projects = [
     id: 4,
   },
   {
-    title: "CSS carousel animation",
+    title: "CSS-Carousel Animation",
     description:
-      "practice creating a simple and pleasant fading animation for a carousel.",
+      "Practice creating a simple and pleasant fading animation for a carousel.",
     image: "/images/css-carousel.jpg",
     tags: ["JavaScript", "CSS", "HTML"],
     source: "https://css-carousel-practice.netlify.app/",
