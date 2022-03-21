@@ -22,9 +22,9 @@ export const projects = [
   {
     title: "Budget expense tracker",
     description:
-      "Using custom hooks to add and store new /current expense's. The application includes separation by category and a default uncategorized.",
+      "Using custom hooks to add and store new /current expense's with the bootstrap pillbox styling. The application includes separation by category and a default uncategorized.",
     image: "/images/budget.png",
-    tags: ["React", "Hooks", "Custom Hook"],
+    tags: ["React", "Hooks", "Custom Hook", "Bootstrap"],
     source: "https://react-budget-app-practice.netlify.app/",
     visit: "https://github.com/chillbroskie/react-crud-app",
     id: 2,
