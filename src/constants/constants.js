@@ -54,7 +54,7 @@ export const projects = [
     description:
       "Practice creating a simple and pleasant fading animation for a carousel.",
     image: "/images/css-carousel.jpg",
-    tags: ["JavaScript", "CSS", "HTML"],
+    tags: ["HTML", "CSS", "JavaScript"],
     source: "https://css-carousel-practice.netlify.app/",
     visit: "https://github.com/chillbroskie/css-carousel",
     id: 5,
@@ -73,7 +73,7 @@ export const projects = [
     description:
       "JavaScript Todo list that allows you to create, read, update, and delete a appended div.",
     image: "/images/todo.png",
-    tags: ["JavaScript", "CSS", "HTML"],
+    tags: ["HTML", "CSS", "JavaScript"],
     source: "https://js-basic-todo-list.netlify.app/",
     visit: "https://github.com/chillbroskie/js-todo-list",
     id: 7,
