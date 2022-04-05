@@ -78,6 +78,16 @@ export const projects = [
     visit: "https://github.com/chillbroskie/js-todo-list",
     id: 7,
   },
+  {
+    title: "react movie list",
+    description:
+      "JavaScript Todo list that allows you to create, read, update, and delete a appended div.",
+    image: "/images/todo.png",
+    tags: ["HTML", "CSS", "JavaScript"],
+    source: "#",
+    visit: "#",
+    id: 8,
+  },
 ];
 
 export const TimeLineData = [
