@@ -79,9 +79,8 @@ export const projects = [
     id: 7,
   },
   {
-    title: "react movie list",
-    description:
-      "JavaScript Todo list that allows you to create, read, update, and delete a appended div.",
+    title: "Fighting Game",
+    description: "street fighter style based game. ",
     image: "/images/todo.png",
     tags: ["HTML", "CSS", "JavaScript"],
     source: "#",
